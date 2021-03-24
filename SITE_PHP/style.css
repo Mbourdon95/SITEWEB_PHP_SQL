@@ -1,0 +1,67 @@
+﻿header {
+	text-align:center;
+	background-color:rgb(202,255,176);
+}
+
+#navigation {
+   
+	float:left;
+	width:20%;
+}
+
+#page {
+	
+	margin-left:21%;
+	background-color:rgb(76, 76, 77);
+	text-align:center;
+	width : 100%;
+}
+
+footer{
+	text-align:center;
+	clear:left;
+}
+
+#code {
+   border-radius: 1px solid black;
+   font-family: "Comic Sans MS", "Trebuchet MS", Times, "Times New Roman", serif;
+   text-align: left; /* Tous les textes des cellules seront centrés*/
+   padding: 5px; /* Petite marge intérieure aux cellules pour éviter que le texte touche les bordures */
+}
+#resultat {
+background-color:#12510533;
+}
+
+html{
+	background-color:rgb(54, 54, 54);
+}
+#c{
+	display:inline-block;
+}
+div.container{
+	background-color:rgb(54, 54, 54);
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70em;
+	height: 20em;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+
+li.sm a{ 
+	margin-left:10%;
+	color:gray;
+	text-decoration: none;
+
+}
+li.sm a:hover{ 
+	transition-duration: 0.1s;
+	color:white;
+}
+li .sm a:hover:before { 
+	content:" » ";
+}
