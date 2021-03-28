@@ -76,11 +76,3 @@ if(isset($_POST['Envoyez'])){
 
 ![3](https://user-images.githubusercontent.com/71081511/100544284-e117b100-3254-11eb-940c-47f16bd437c0.PNG) -> ![6](https://user-images.githubusercontent.com/71081511/100544288-e2e17480-3254-11eb-8574-6da2d3a584ed.PNG)
 
-## 4. Gestion des Utilisateurs. 
-### 4.1 Gestion des membres : Prof et Eleves.
-
-### 4.2 Gestion des Options en première année. 
-
-### 4.3 Passage et Diplôme.
-
-
