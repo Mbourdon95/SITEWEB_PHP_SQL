@@ -61,25 +61,3 @@ INSERT INTO `livre` (`id`, `titre`, `couverture`, `idAuteur`, `idEditeur`, `idLi
 INSERT INTO `livre` (`id`, `titre`, `couverture`, `idAuteur`, `idEditeur`, `idLivre`) VALUES (13,'L’horloger de l’aube','Livre-13.jpeg',13,13,13);
 INSERT INTO `livre` (`id`, `titre`, `couverture`, `idAuteur`, `idEditeur`, `idLivre`) VALUES (14,'L’oeil du loup','Livre-14.jpeg',14,14,14);
 ``` 
-
-
-
-## :zap: 5. Ajout de Trigger et Procédure pour l'Automatisation :zap: 
-
-On ajoute un trigger, c'est-à-dire un événement qui se déclenche sous certaines conditions.
-
-Trigger 1 :
-
->> Ce trigger se déclenche au moment d'une insertion d'un élève dans les utilisateurs (Table Aauth_Users de La BDD)
->> Il se déclenche **Après** l'insertion d'une donnée, ensuite il lit le code du trigger et l'éxecute.
->> Au moment de l'insertion nous allons modifier la clef étrangère qui lie auuth_users à eleve.
-
-```sql
-delimiter |
-drop Trigger insert_Eleve_aauth_users|
-Create Trigger insert_Eleve_aauth_users after insert 
-on aauth_users FOR EACH ROW
-BEGIN
-	update eleve e set e.idAuth = id;
-END|
-``` 
