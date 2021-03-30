@@ -81,57 +81,15 @@ create table Enseigner(
 	
 /* Insertion des valeurs de la table Utilisateur*/
 INSERT INTO utilisateur (idUtilisateur,typeDroit,pseudo,motDePasse,TypeUtil,dateInscription)
-VALUES(1,1, "Admin","Viveadmin",1,"20/05/16"),
-(2,2, "Reine-marie", "BREL",2,"20/05/17"),
-(3,2, "Olivier", "DEBBACHE",2,"20/05/17"),
-(4,2, "Laurence", "BERNARD",2,"20/05/17"),
-(5,2, "Martine", "CHENU",2,"20/05/17"),
-(6,2, "Marie", "CORCIA",2,"20/05/17"),
-(7,2, "Louis", "DELIBES",2,"20/05/17"),
-(8,2, "Eric", "MALHERBES",2,"20/05/17");
+VALUES(
 
 
 /* Insertion des valeurs de la table Eleve*/
 INSERT INTO Eleve (idEleve, nomEleve, prenomEleve, anneeDiplome, adressEmailEleve, dateDeNaissance)
-VALUES(1,"SOUNI", "Nabil", 2021, "nabil.so@live.fr","00/12/25"),
-(2,"BOUBCHIR", "Marwan", 2021,"marwan.boubchir@outlook.fr","00/08/23"),
-(3,"BOURDON", "Maxime", 2021,"mbourdon.pro@gmail.com","00/11/25"),
-(4,"DIVIN", "Estelle", 2021, "estelledivin8@gmail.com","01/09/06"),
-(5,"COBILEANSCHI", "Romica", 2021, "COBILEANSCHI.ROMICA2000@GMAIL.COM"," "),
-(6,"ADELE","Wiliam",2021,"wiliam.adele@outlook.fr","00/02/23"),
-(7,"LOUTFI","Yassin",2021,"yassin.loutfi951@gmail.com","01/05/07"),
-(8,"SAMSON","Hugo",2021,"hugo.samson7@gmail.com", "01/12/28"),
-(9,"ATMANIOU","Adam",2021,"adam.atmaniou@yahoo.com","99/01/03"),
-(10,"LAVAL","Léo",2021,"leo.laval.pro@gmail.com","00/10/05"),
-(11,"AUGAY","Coralie",2021,"augaycoralie@gmail.com","00/04/20"),
-(12,"RICAUD","Emmanuel",2021,"ericaud1495@gmail.com","00/13/04"),
-(13,"LY","Angel",2021,"angelly13051305@gmail.com","01/13/05"),
-(14,"ROUSSIN","Evan",2021,"evan.roussin@gmail.com","01/20/04"),
-(15,"BELFIS","Alexis",2021,"alexis.belfis@gmail.com","01/01/29"),
-(16,"COULON","Alexis",2021,"alexcoulon@hotmail.fr","01/13/07"),
-(17,"DE MELO","Kevin",2021,"kevindm94@icloud.com","01/12/07"),
-(18,"DESIDERIO","Sandro",2021,"sdesiderio94@gmail.com","01/12/01"),
-(19,"DORBAL","Benoit",2021,"benoit.dorbal@gmail.com","00/03/10"),
-(20,"GAVERINI","Julien",2021,"j.gaverini@yahoo.com","01/16/09"),
-(21,"KHAN","Zain",2021,"Khanzain256@gmail.com","01/09/04"),
-(22,"RENAUDON","Xavier",2021,"xavierrenaudon@gmail.com","01/25/03"),
-(23,"SALDANHA","Benjamin",2021,"benjamin.saldanha@hotmail.fr","00/02/10"),
-(24,"PIETTE","Benjamin",2021,"benjipiette22@gmail.com","01/22/10"),
-(25,"TIMBRIA","Enzo",2021,"rtimbria@gmail.com","00/06/28"),
-(26,"VERNET","Enzo",2021," "," "),
-(27,"AZIZI","Kaci",2021,"hafkassia@outlook.fr","01/11/30"),
-(28,"DUQUERROIX","Romain",2021,"duquerroix.pro@gmail.com","01/05/23"),
-(29,"RAJA","Afaaq",2021,"afaaq.raja.pro@gmail.com","01/11/20");
+VALUES
 
 /* Insertion des valeurs de la table Prof */
 INSERT INTO Prof (idProf, nomProf, prenomprof, adresseEmailProf, idUtilisateur) VALUES 
-(1, "BREL", "Reine-marie", "brelrm@sfr.fr",2),
-(2, "DEBBACHE", "Olivier","olivier.debbache@gmail.com",3),
-(4, "BERNARD", "Laurence","laurence.bernard92@gmail.com",4),
-(5, "CHENU", "Martine","profmaths.mchenu@gmail.com",5),
-(6, "CORCIA", "Marie","corcia.marie@gmail.com",6),
-(7, "Delibes", "Louis","louis.delibes@orange.fr",7),
-(3, "MALHERBES", "Eric","erikmalherbe@gmail.com",8);
 
 
 /* Suppression et Création de la table navigation */
